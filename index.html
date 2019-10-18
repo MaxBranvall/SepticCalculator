@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="mainContainer">
+            <h2>Calculator</h2>
+
+            <div class="inputContainer">
+
+                <div class="group">
+                    <label for="ptg">Bottom of Pipe to Ground:</label>
+                    <input type="number" min="0" id="ptg">
+                </div>
+
+                <div class="group">
+                    <label for="pitch">Pitch:</label>
+                    <input type="number" min="0" id="pitch">
+                </div>
+
+                <div class="group">
+                    <label for="tank">Tank:</label>
+                    <select id="tank">
+                        <option value="43">Low Boy</option>
+                    </select>
+                </div>
+
+                <button type="button" onclick="addValues()">Calculate ptg+pitch</button>
+
+            </div>
+
+            <p>New Pitch: <span id="newPitch"></span></p>
+            <p>Riser Height: <span id="riserHeight"></span></p>
+            <p>Overall Depth: <span id="overallDepth"></span></p>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
