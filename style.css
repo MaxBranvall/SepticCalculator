@@ -1,55 +1,61 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: darkgrey;
-    font-size: 10px;
-}
 
-h2 {
-    font-size: 3.5em;
-    text-align: center;
-}
+@media screen and (max-width:800px)
+{
 
-.inputContainer {
-    display: grid;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: darkgrey;
 
-.mainContainer {
-    margin: 0 1em;
-}
+        font-size: 10px;
+    }
 
-label, input, select {
-    display: block;
-    font-size: 2em;
-    margin: 0 auto;
-    margin-bottom: .5em;
-    text-align: center;
-}
+    h2 {
+        font-size: 3.5em;
+        text-align: center;
+    }
 
-input {
-    width: 30%;
-}
+    .inputContainer {
+        display: grid;
+    }
 
-select {
-    width: 50%;
-}
+    .mainContainer {
+        margin: 0 1em;
+    }
 
-button {
-    border-radius: 5px;
-    background-color: #2980b9;
-    color: white;
-    padding: 5px;
-    border: none;
-    margin: 0 auto;
-    width: 50%;
-}
+    label, input, select {
+        display: block;
+        font-size: 2em;
+        margin: 0 auto;
+        margin-bottom: .5em;
+        text-align: center;
+    }
 
-button:active {
-    background-color: #15405c;
-}
+    input {
+        width: 30%;
+    }
 
-p {
-    font-size: 2em;
+    select {
+        width: 50%;
+    }
+
+    button {
+        border-radius: 5px;
+        background-color: #2980b9;
+        color: white;
+        padding: 5px;
+        border: none;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    button:active {
+        background-color: #15405c;
+    }
+
+    p {
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 900px)
