@@ -9,23 +9,23 @@
     <body>
 
         <div class="mainContainer">
-            <h2>Calculator</h2>
+            <h2>Branvall Calculator</h2>
 
             <div class="inputContainer">
 
                 <div class="group">
-                    <label for="ptg">Bottom of Pipe to Ground:</label>
-                    <input type="number" min="0" id="ptg">
+                    <label for="ptg">Invert to Ground: </label>
+                    <input type="number" min="0" id="ptg" onchange="mainCalculation()">
                 </div>
 
                 <div class="group">
                     <label for="pitch">Pitch:</label>
-                    <input type="number" min="0" id="pitch">
+                    <input type="number" min="0" id="pitch" onchange="mainCalculation()">
                 </div>
 
                 <div class="group">
                     <label for="tank">Tank:</label>
-                    <select id="tank">
+                    <select id="tank" onchange="mainCalculation()">
                         <option value="null">-- Select Option --</option>
                         <option value="64">Rect. 1000 Gallon</option>
                         <option value="54">Rect. LowBoy (single & combo)</option>
@@ -41,13 +41,13 @@
                     </select>
                 </div>
 
-                <button type="button" onclick="addValues()">Calculate</button>
+                <!-- <button type="button" onclick="addValues()">Calculate</button> -->
 
             </div>
 
-            <p>New Pitch: <span id="newPitch"></span></p>
-            <p>Riser Height: <span id="riserHeight"></span></p>
-            <p>Overall Depth: <span id="overallDepth"></span></p>
+            <p>New Pitch: <span id="newPitch"></span> inches</p>
+            <p>Riser Height: <span id="riserHeight"></span> inches</p>
+            <p>Overall Depth: <span id="overallDepth"></span> inches</p>
 
         </div>
 

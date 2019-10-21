@@ -1,67 +1,57 @@
 
-@media screen and (max-width:800px)
-{
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
 
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: darkgrey;
-
-        font-size: 10px;
-    }
-
-    h2 {
-        font-size: 3.5em;
-        text-align: center;
-    }
-
-    .inputContainer {
-        display: grid;
-    }
-
-    .mainContainer {
-        margin: 0 1em;
-    }
-
-    label, input, select {
-        display: block;
-        font-size: 2em;
-        margin: 0 auto;
-        margin-bottom: .5em;
-        text-align: center;
-    }
-
-    input {
-        width: 30%;
-    }
-
-    select {
-        width: 50%;
-    }
-
-    button {
-        border-radius: 5px;
-        background-color: #2980b9;
-        color: white;
-        padding: 5px;
-        border: none;
-        margin: 0 auto;
-        width: 50%;
-    }
-
-    button:active {
-        background-color: #15405c;
-    }
-
-    p {
-        font-size: 2em;
-    }
+    font-size: 20px;
 }
 
-@media screen and (min-width: 900px)
-{
-    .mainContainer {
-        margin: 0 auto;
-        width: 50%;
-    }
+h2 {
+    font-size: 4.5em;
+    text-align: center;
+}
+
+.inputContainer {
+    display: grid;
+}
+
+.mainContainer {
+    margin: 0 1em;
+}
+
+label, input, select {
+    display: block;
+    font-size: 2.5em;
+    margin: 0 auto;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+input {
+    width: 30%;
+}
+
+select {
+    width: 50%;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    font-size: 2em;
+}
+
+button:active {
+    background-color: #15405c;
+}
+
+p {
+    font-size: 3em;
 }

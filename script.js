@@ -9,7 +9,7 @@ var newPitchElement = document.getElementById('newPitch');
 var riserHeightElement = document.getElementById('riserHeight');
 var overallDepthElement = document.getElementById('overallDepth');
 
-function addValues() {
+function mainCalculation() {
     ptg = Number(document.getElementById('ptg').value);
     pitch = Number(document.getElementById('pitch').value);
     tank = Number(document.getElementById('tank').value);
